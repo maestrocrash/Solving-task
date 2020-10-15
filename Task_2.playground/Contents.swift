@@ -5,3 +5,9 @@
 //Решение:
 
 
+func polindrom(input: String) -> Bool{
+    
+    let lowercased = input.lowercased()
+    
+    return String(lowercased.reversed()) == input
+}
